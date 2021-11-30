@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content=" width=device-width, initial-scale=1">
+    <title>My responsive-flex site</title>
+    <style media="screen">
+      @media (max-width: 1400px) {
+      .paragraph{
+      font-size: 75%;
+      }
+      }
+      @media (max-width: 1000px) {
+        .paragraph{
+          font-size: 65%;
+      }
+      }
+      @media (max-width: 700px) {
+        .paragraph{
+          font-size: 50%;
+      }
+      }
+      @media (max-width: 500px) {
+        .paragraph{
+          font-size: 40%;
+      }
+      }
+      @media (max-width: 1400px) {
+      .textbox1{
+        font-size: 75%;
+      }
+      }
+      @media (max-width: 1000px) {
+      .textbox1{
+        font-size: 65%;
+      }
+      }
+      @media (max-width: 700px) {
+      .textbox1{
+        font-size: 50%;
+      }
+      }
+      @media (max-width: 500px) {
+      .textbox1{
+        font-size: 40%;
+      }
+      }
+      @media (max-width: 1400px) {
+      .textbox2{
+        font-size: 75%;
+      }
+      }
+      @media (max-width: 1000px) {
+      .textbox2{
+        font-size: 65%;
+      }
+      }
+      @media (max-width: 700px) {
+      .textbox2{
+        font-size: 50%;
+      }
+      }
+      @media (max-width: 500px) {
+      .textbox2{
+        font-size: 40%;
+      }
+      }
+    body{
+      margin: 0px;
+      background-color: #ffffcc;
+      font-family: cursive;
+    }
+    nav{
+      height: 75px;
+      background-color: #ffffcc;
+      }
+    header{
+      height: 400px;
+      background-image: url("https://prolviv.com/wp-content/uploads/2017/09/lviv-avstriyskyi.jpg.pagespeed.ce_.nqam_bDSd6.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      }
+    section{
+      background-color: #ffffcc;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      margin-left: 100px;
+      margin-right: 100px;
+      height: 700px;
+      }
+    .prefooter{
+      height: 40px;
+      background-color: silver;
+      }
+    footer{
+      height: 70px;
+      background-color: black;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      }
+    .paragraph{
+      height: 150px;
+      background-color: #faf0e6;
+      padding: 20px;
+      margin-bottom: 30px;
+      text-align: center;
+      }
+    #flex-container-1{
+      display: flex;
+      justify-content: flex-start;
+      }
+    #flex-container-2{
+      display: flex;
+      justify-content: flex-start;
+      }
+    .picturebox1{
+      height: 300px;
+      width: 48%;
+      margin-right: 35px;
+      background-image: url("https://ua.igotoworld.com/frontend/webcontent/websites/50/images/gallery/10376_800x600_0_820f3_2b2920e_orig.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+     }
+   .picturebox2{
+      height: 300px;
+      width: 48%;
+      margin-left: 20px;
+      background-image: url("https://prolviv.com/wp-content/uploads/2016/04/1036257_800x600_cikavo-znaty.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+     }
+     .textbox1{
+       margin-top: 10px;
+       height: 150px;
+       width: 48%;
+       margin-right: 35px;
+       background-color: #faf0e6;
+       padding: 5px;
+       text-align: center;
+      }
+    .textbox2{
+       margin-top: 10px;
+       height: 150px;
+       width: 48%;
+       margin-left: 20px;
+       background-color: #faf0e6;
+       padding: 5px;
+       text-align: center;
+      }
+      h1{
+        display: flex;
+        justify-content: center;
+        margin: 5px;
+        font-size: 345%;
+      }
+      a{
+        color: #ffffff;
+        margin: 15px;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+   <nav><h1>Львів</h1></nav>
+   <header></header>
+   <section>
+    <p class="paragraph">Історія Львова настільки ж яскрава та дивовижна, як і
+       саме місто, насичена
+      цікавими подіями та знаменитими постатями. Сьогодні Львову вже понад 760
+      років і йому є Вам про що розповісти.<br>
+    Місто, яке було засноване на перетині вигідних торгівельних шляхів скоро
+    розцвітало та розвивалося, ставши одним із
+    головних торгових центрів середньовічної Європи.<br>
+    Згодом, переходячи під влади багатьох європейських країн, зокрема Польщі,
+    Австрії, Німеччини та Росії, Львів перебирав від
+    кожного зі своїх загарбників якусь частину культури та знань, з часом
+    перетворившись не лише на перлину архітектури, але й
+    столицю сучасного наукового, духовного та мистецького життя.</p>
+    <div id="flex-container-1">
+     <div class="picturebox1"></div>
+     <div class="picturebox2"></div>
+    </div>
+    <div id="flex-container-2">
+      <div class="textbox1"><p>Львів — місто з особливою атмосферою, яким більш
+        ніж півтисячоліття правили королі.<br>
+     Це місто кави, місто тисячі левів, місто джазу, дощу, шоколаду, терас і
+     пристрасного танго. Усі ці невеличкі радості
+     життя встигли перерости у традиції для кожного львів’янина.</p></div>
+     <div class="textbox2"><p>Серце міста — площа Ринок, на якій стоїть
+       65-метрова ратуша.<br>
+     Відкрили оглядовий майданчик лише у 2003 році. Він працює щоденно, що дає
+     можливість львів'янам та гостям міста як
+     влітку, так і взимку, насолоджуватися гарною панорамою міста.</p></div>
+    </div>
+   </section>
+    <div class="prefooter"></div>
+  <footer>
+    <span><a href="#">Туристичний сайт міста</a></span>
+    <span><a href="#">Події</a></span>
+    <span><a href="#">Екскурсії</a></span>
+    <span><a href="#">Готелі</a></span>
+  </footer>
+  </body>
+</html>

@@ -1,0 +1,43 @@
+<!DOSTYPE html>
+<html>
+<head>
+  <title>My parallax site</title>
+  <style>
+    body, html {
+      height: 100%;                      /*на весь екран*/
+      font-family: cursive;              /*шрифт*/
+      }
+      .effect {                          /*для каринки*/
+        height: 100%;                    /*на весь екран*/
+        background-image: url('kartinki.jpg'); /*сама картинка*/
+        background-attachment: fixed;          /*фіксувати картинку*/
+        background-position: center;           /*по центру*/
+        background-size: cover;                /*для збереження пропорцій зображення*/
+      }
+      @media only screen and (max-device-width: 1400px) { /*виключення ефекту для дивайсів з малим екраном*/
+          .effect {
+              background-attachment: scroll;   /*прокрутити картинку*/
+          }
+      }
+    .flex-container {                          /*флекс-контейнер*/
+      text-align: center;                      /*розташування по центру*/
+      color: #ffffff;                          /*колір тексту*/
+      background-color: #000066;               /*колір фону*/
+      margin: 10px;                            /*відступи*/
+      padding: 10px;                           /*внутрішні відступи*/
+      border: 1px solid #ffffff;               /*рамка*/
+    }
+  </style>
+</head>
+<body>
+  <div class="effect"></div>
+    <div class="flex-container">
+    <h2>Hi, this is my first site with parallax scrolling effect.</h2>
+    <h3>Scroll down to see the effect</h3>
+    In recent years, parallax has become a trend in websites and mobile apps.<br>
+    Parallax scrolling effect is a technique where the background of a website scrolls at a slower pace than the foreground. <br>
+    The purpose is to achieve an illusion of depth within the 2d scene of a website.
+  </div>
+  <div class="effect"></div>
+</body>
+</html>

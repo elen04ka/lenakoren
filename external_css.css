@@ -1,0 +1,101 @@
+*{
+  font-family: cursive;             /*шрифт*/
+  color: #333333;                   /*колір*/
+}
+body{
+  background-color: #ccccff;        /*фон*/
+  margin: 30px;                     /*відступи*/
+}
+.flex-container-1{                  /*перший флекс-контейнер*/
+  display: flex;                    /*відображення*/
+  justify-content: flex-end;        /*розташування*/
+  align-items: center;
+}
+.link{                              /*посилання на інші сторінки*/
+  color: #666699;                   /*колір*/
+  text-decoration: none;            /*текстові декорації*/
+  margin: 10px;                     /*відступи*/
+  margin-top: -10px;                /*повернула простір зверху*/
+  margin-bottom: -10px;             /*повернула простір знизу*/
+  padding: 5px;                     /*внутрішні відступи*/
+  border: 1px solid #666699;        /*рамка*/
+  border-radius: 10%                /*радіус*/
+}
+.flex-container-2{                  /*другий флекс-контейнер*/
+  text-align: center;               /*вирівнювання тексту*/
+  margin: 10px;                     /*відступи*/
+}
+.flex-container-3{                  /*третій флекс-контейнер*/
+  display: flex;                    /*відображення*/
+  justify-content: center;          /*розташування*/
+  margin-bottom: 15px;              /*відступ знизу*/
+}
+.flex-container-4{                  /*четвертий флекс-контейнер*/
+  text-align: center;               /*вирівнювання тексту*/
+  margin: 10px;                     /*відступи*/
+}
+.flex-container-5{                  /*п'ятий флекс-контейнер*/
+  display: flex;                    /*відображення*/
+  justify-content: space-around;    /*розташування*/
+  margin: 15px;                     /*відступи*/
+}
+.flex-container-6{                  /*шостий флекс-контейнер*/
+  display: flex;                    /*відображення*/
+  justify-content: space-around;    /*розташування*/
+  margin: 15px;                     /*відступи*/
+}
+.flex-container-7{                  /*сьомий флекс-контейнер*/
+  display: flex;                    /*відображення*/
+  justify-content: space-around;    /*розташування*/
+  margin: 15px;                     /*відступи*/
+}
+.box{                               /*рамка для тексту*/
+  text-align: center;               /*розташування тексту*/
+  color: #333333;                   /*колір*/
+  text-decoration: none;            /*текстові декорації*/
+  margin: 2px;                      /*відступ*/
+  padding: 5px;                     /*внутрішній відступ*/
+  border: 2px solid #333333;        /*рамка*/
+  border-radius: 7%                 /*радіус*/
+}
+.dotted{                            /*горизонтальна лінія*/
+  border-color: #6600cc;            /*колір*/
+  border-style: none;               /*стиль*/
+  border-top-style: dotted;         /*стиль верху*/
+  border-width: thick;              /*ширина рамки*/
+  width: 3%                         /*ширина лінії*/
+}
+.solid{                             /*горизонтальна лінія*/
+  border-color: #6600cc;            /*колір*/
+  border-style: none;               /*стиль*/
+  border-top-style: solid;          /*стиль верху*/
+  border-width: thick;              /*ширина рамки*/
+  width: 90%                        /*ширина лінії*/
+}
+.hr_kontakty{
+  border-color: #6600cc;            /*колір*/
+  border-style: none;               /*стиль*/
+  border-top-style: dashed;         /*стиль верху*/
+  border-width: thick;              /*ширина рамки*/
+}
+.hr_skills{                         /*горизонтальна лінія*/
+  border-color: #6600cc;            /*колір*/
+  border-style: none;               /*стиль*/
+  border-top-style: dotted;         /*стиль верху*/
+  border-width: thick;              /*ширина рамки*/
+  width: 40%                        /*ширина лінії*/
+}
+.hr_dosvid{                         /*горизонтальна лінія*/
+  border-color: #6600cc;            /*колір*/
+  border-style: none;               /*стиль*/
+  border-top-style: dotted;         /*стиль верху*/
+  border-width: thick;              /*ширина рамки*/
+  width: 90%                        /*ширина лінії*/
+}
+.hr_travel{                         /*горизонтальна лінія*/
+  border-color: #6600cc;            /*колір*/
+  border-style: none;               /*стиль*/
+  border-top-style: dotted;         /*стиль верху*/
+  border-width: thick;              /*ширина рамки*/
+  width: 90%                        /*ширина лінії*/
+}
